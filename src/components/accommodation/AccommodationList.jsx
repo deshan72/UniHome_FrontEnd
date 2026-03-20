@@ -1,5 +1,5 @@
 import AccommodationCard from './AccommodationCard';
-import LoadingSpinner from '../common/LoadingSpinner';
+import LoadingSpinner from '../../common/LoadingSpinner';
 
 const AccommodationList = ({ listings, loading, showStatus = false }) => {
   if (loading) return <LoadingSpinner text="Loading accommodations..." />;
