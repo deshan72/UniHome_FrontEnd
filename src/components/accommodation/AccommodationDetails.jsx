@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import StarRating from '../common/StarRating';
+// import StarRating from '../common/StarRating';
 import { formatPrice, distanceToSLIIT, distanceToSLIITValue, getWalkingTime, getDrivingTime, getDistanceColor, getDistanceLabel } from '../../utils/formatters';
 import { STATUS_COLORS } from '../../utils/constants';
 import { getImageUrl, getPlaceholder } from '../../utils/imageHelper';
