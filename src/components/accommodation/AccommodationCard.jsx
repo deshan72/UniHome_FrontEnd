@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import StarRating from '../common/StarRating';
+import StarRating from '../../common/StarRating';
 import { formatPrice, distanceToSLIIT } from '../../utils/formatters';
 import { STATUS_COLORS } from '../../utils/constants';
 import { getImageUrl, getPlaceholder } from '../../utils/imageHelper';
