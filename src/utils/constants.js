@@ -6,7 +6,7 @@ export const SLIIT_COORDINATES = {
 };
 
 export const ACCOMMODATION_TYPES = [
-  "Apartment", "Room", "Annex", "Shared", "House", "Hostel"
+  "Apartment", "Room", "Annex", "Shared", "House"
 ];
 
 export const ROOM_TYPES = ["Single", "Double", "Shared", "Studio"];
