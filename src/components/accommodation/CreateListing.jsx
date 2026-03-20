@@ -1,9 +1,9 @@
 import { useState, useCallback, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createAccommodation } from '../../services/accommodationService';
-import { uploadSingleImage } from '../../services/uploadService';
+import { createAccommodation } from '../../services/accommodation/accommodationServices';
+import { uploadSingleImage } from '../../services/accommodation/uploadServices';
 import { ACCOMMODATION_TYPES, ROOM_TYPES, AMENITY_OPTIONS, GENDER_OPTIONS, MINIMUM_PERIODS, NEARBY_AREAS } from '../../utils/constants';
-import LocationPicker from '../map/LocationPicker';
+// import LocationPicker from '../map/LocationPicker';
 
 const CreateListing = () => {
   const navigate = useNavigate();
