@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, useMapEvents, useMap } from 'react-leaflet';
 import L from 'leaflet';
-import { SLIIT_COORDINATES } from '../../utils/constants';
-import { reverseGeocode, searchLocation } from '../../services/mapService';
+import { SLIIT_COORDINATES } from '../utils/constants';
+import { reverseGeocode, searchLocation } from '../services/accommodation/mapService';
 import DistanceCalculator from './DistanceCalculator';
 
 delete L.Icon.Default.prototype._getIconUrl;
